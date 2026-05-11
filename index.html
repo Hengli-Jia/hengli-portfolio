@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hengli Jia | Software Developer</title>
+  <meta name="description" content="Hengli Jia portfolio website: software development, database systems, AI-assisted development, teaching, and practical projects." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">Hengli Jia</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" data-en="Home" data-zh="首页">Home</a>
+        <a href="#about" data-en="About" data-zh="关于">About</a>
+        <a href="#experience" data-en="Experience" data-zh="经历">Experience</a>
+        <a href="#education" data-en="Education" data-zh="教育">Education</a>
+        <a href="#skills" data-en="Skills" data-zh="技能">Skills</a>
+        <a href="#projects" data-en="Projects" data-zh="项目">Projects</a>
+        <a href="#contact" data-en="Contact" data-zh="联系">Contact</a>
+        <button class="language-btn" id="languageBtn">EN | 中文</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow" data-en="Portfolio Website" data-zh="个人作品集网站">Portfolio Website</p>
+        <h1>Hengli Jia</h1>
+        <h2 data-en="Software Developer" data-zh="软件开发者">Software Developer</h2>
+        <p class="hero-tagline" data-en="Database Systems · AI-Assisted Development · Teaching · System Design" data-zh="数据库系统 · AI 辅助开发 · 教学 · 系统设计">Database Systems · AI-Assisted Development · Teaching · System Design</p>
+        <p class="hero-description" data-en="I build practical software projects using C++, Python, Java, and web technologies. My experience includes database system development at Beshton Software Inc, AI-assisted application building, teaching as a CIS Lab TA, and organizing system-level software projects." data-zh="我使用 C++、Python、Java 和网页技术构建实际软件项目。我的经历包括在 Beshton Software Inc 参与数据库系统开发、使用 AI 工具辅助应用开发、担任 CIS Lab TA，以及组织系统级软件项目。">I build practical software projects using C++, Python, Java, and web technologies. My experience includes database system development at Beshton Software Inc, AI-assisted application building, teaching as a CIS Lab TA, and organizing system-level software projects.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects" data-en="View Projects" data-zh="查看项目">View Projects</a>
+          <a class="btn btn-secondary" href="#experience" data-en="View Experience" data-zh="查看经历">View Experience</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glass-panel">
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <div class="code-mark">&lt;/&gt;</div>
+          <div class="line one"></div><div class="line two"></div><div class="line three"></div>
+          <div class="mini-card card-a">C++</div><div class="mini-card card-b">Python</div><div class="mini-card card-c">Java</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-grid container">
+      <article class="card about-card" id="about">
+        <div class="card-icon">01</div>
+        <p class="eyebrow" data-en="About" data-zh="关于我">About</p>
+        <h3 data-en="Building practical software with clear system logic." data-zh="用清晰的系统逻辑构建实际软件。">Building practical software with clear system logic.</h3>
+        <p data-en="I am a software developer with experience in database systems, AI-assisted development, and technical education. I have contributed to a database system during my internship at Beshton Software Inc and built applications using Agentic AI tools such as Claude Code." data-zh="我是一名具备数据库系统、AI 辅助开发和技术教学经验的软件开发者。我曾在 Beshton Software Inc 实习期间参与数据库系统开发，并使用 Claude Code 等 Agentic AI 工具构建应用。">I am a software developer with experience in database systems, AI-assisted development, and technical education. I have contributed to a database system during my internship at Beshton Software Inc and built applications using Agentic AI tools such as Claude Code.</p>
+        <p data-en="Beyond development, I have worked as a CIS Lab TA at De Anza College, supporting students with programming concepts, debugging, and computer science fundamentals." data-zh="除了软件开发，我也曾担任 De Anza College 的 CIS Lab TA，帮助学生理解编程概念、调试代码，并学习计算机科学基础。">Beyond development, I have worked as a CIS Lab TA at De Anza College, supporting students with programming concepts, debugging, and computer science fundamentals.</p>
+      </article>
+      <article class="card focus-card">
+        <div class="card-icon">02</div>
+        <p class="eyebrow" data-en="Focus Areas" data-zh="专业方向">Focus Areas</p>
+        <div class="focus-list">
+          <span data-en="Database Systems" data-zh="数据库系统">Database Systems</span>
+          <span data-en="AI-Assisted Development" data-zh="AI 辅助开发">AI-Assisted Development</span>
+          <span data-en="Technical Teaching" data-zh="技术教学">Technical Teaching</span>
+          <span data-en="System Planning" data-zh="系统规划">System Planning</span>
+          <span data-en="Web Development" data-zh="网页开发">Web Development</span>
+          <span data-en="Python Applications" data-zh="Python 应用">Python Applications</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow" data-en="Professional Background" data-zh="个人经历">Professional Background</p>
+        <h2 data-en="Experience" data-zh="经历">Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><p class="role" data-en="Software Development Intern" data-zh="软件开发实习生">Software Development Intern</p><h3>Beshton Software Inc</h3><p data-en="Contributed to a database system and built applications using Agentic AI tools such as Claude Code. Gained practical exposure to how software systems are designed, applied, and scaled in real-world business environments." data-zh="参与数据库系统开发，并使用 Claude Code 等 Agentic AI 工具构建应用。通过实际项目了解软件系统如何在真实商业环境中被设计、应用和扩展。">Contributed to a database system and built applications using Agentic AI tools such as Claude Code. Gained practical exposure to how software systems are designed, applied, and scaled in real-world business environments.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><p class="role" data-en="CIS Lab Teaching Assistant" data-zh="CIS Lab 助教">CIS Lab Teaching Assistant</p><h3>De Anza College</h3><p data-en="Supported students in understanding programming concepts, debugging code, and practicing computer science fundamentals. Strengthened communication, teaching, and technical problem-solving skills." data-zh="帮助学生理解编程概念、调试代码，并练习计算机科学基础。该经历提升了我的沟通能力、教学能力和技术问题解决能力。">Supported students in understanding programming concepts, debugging code, and practicing computer science fundamentals. Strengthened communication, teaching, and technical problem-solving skills.</p></div></article>
+        <article class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><p class="role" data-en="Community Basketball Coach" data-zh="社区篮球教练">Community Basketball Coach</p><h3 data-en="Community Mentoring" data-zh="社区指导经历">Community Mentoring</h3><p data-en="Coached students in basketball fundamentals, teamwork, and discipline. Developed leadership, communication, and mentoring experience through community involvement." data-zh="指导学生学习篮球基础、团队合作和纪律意识。通过社区活动积累领导力、沟通和指导经验。">Coached students in basketball fundamentals, teamwork, and discipline. Developed leadership, communication, and mentoring experience through community involvement.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section container education-skills">
+      <article class="card education-card" id="education">
+        <p class="eyebrow" data-en="Education" data-zh="教育背景">Education</p>
+        <h2 data-en="Academic Background" data-zh="学习经历">Academic Background</h2>
+        <div class="education-list">
+          <div class="education-item"><h3>De Anza College</h3><p data-en="Computer Science Coursework" data-zh="计算机科学相关课程">Computer Science Coursework</p><strong>GPA: 4.0</strong></div>
+          <div class="education-item"><h3>Laney College</h3><p data-en="Computer Science Coursework" data-zh="计算机科学相关课程">Computer Science Coursework</p><strong>GPA: 4.0</strong></div>
+          <div class="education-item"><h3>Diablo Valley College</h3><p data-en="Computer Science Coursework" data-zh="计算机科学相关课程">Computer Science Coursework</p><strong>GPA: 4.0</strong></div>
+        </div>
+      </article>
+      <article class="card skills-card" id="skills">
+        <p class="eyebrow" data-en="Skills" data-zh="技能">Skills</p>
+        <h2 data-en="Technical Skills" data-zh="技术能力">Technical Skills</h2>
+        <div class="skill-block"><h3 data-en="Software Development" data-zh="软件开发">Software Development</h3><p>C++, Python, Java, Object-Oriented Programming, Modular Programming</p></div>
+        <div class="skill-block"><h3 data-en="Database & Systems" data-zh="数据库与系统">Database & Systems</h3><p data-en="Database System Development, System Planning, Workflow Design, Documentation" data-zh="数据库系统开发、系统规划、工作流程设计、文档整理">Database System Development, System Planning, Workflow Design, Documentation</p></div>
+        <div class="skill-block"><h3 data-en="Web Development" data-zh="网页开发">Web Development</h3><p>HTML, CSS, JavaScript, Responsive Design, Teaching Website Development</p></div>
+        <div class="skill-block"><h3 data-en="AI-Assisted Development" data-zh="AI 辅助开发">AI-Assisted Development</h3><p>Claude Code, Agentic AI Tools, AI-Assisted Application Building</p></div>
+        <div class="skill-block"><h3 data-en="Teaching & Communication" data-zh="教学与沟通">Teaching & Communication</h3><p data-en="CIS Lab TA, Programming Support, Debugging Guidance, Student Mentoring" data-zh="CIS Lab TA、编程辅导、调试指导、学生指导">CIS Lab TA, Programming Support, Debugging Guidance, Student Mentoring</p></div>
+        <div class="skill-block"><h3 data-en="Tools" data-zh="开发工具">Tools</h3><p>Visual Studio Code, Git, GitHub</p></div>
+      </article>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading project-heading"><div><p class="eyebrow" data-en="Selected Work" data-zh="精选项目">Selected Work</p><h2 data-en="Projects" data-zh="项目">Projects</h2></div><a class="text-link" href="https://github.com/Hengli-Jia/Project.git" target="_blank" rel="noopener" data-en="GitHub Project →" data-zh="GitHub 项目 →">GitHub Project →</a></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-visual visual-ucms">UCMS</div><h3 data-en="UCMS Curriculum System" data-zh="UCMS 课程系统">UCMS Curriculum System</h3><p data-en="Organized and structured a University Curriculum Management System project, including project scope, stakeholder alignment, risk considerations, workflow planning, and system documentation." data-zh="整理并规划 University Curriculum Management System 项目，包括项目范围、利益相关者协调、风险考虑、工作流程规划和系统文档结构。">Organized and structured a University Curriculum Management System project, including project scope, stakeholder alignment, risk considerations, workflow planning, and system documentation.</p></article>
+        <article class="project-card"><div class="project-visual visual-teach">WEB</div><h3 data-en="Teaching Website Development" data-zh="教学网站开发">Teaching Website Development</h3><p data-en="Developed a teaching-focused website designed to support learning, practice, and content organization. The project emphasizes clear navigation, structured educational content, and student-friendly interaction." data-zh="开发面向教学的网站，用于支持学习、练习和内容整理。该项目强调清晰导航、结构化教学内容和适合学生使用的交互体验。">Developed a teaching-focused website designed to support learning, practice, and content organization. The project emphasizes clear navigation, structured educational content, and student-friendly interaction.</p></article>
+        <article class="project-card"><div class="project-visual visual-pvz">PVZ</div><h3 data-en="Python Plants vs. Zombies Game" data-zh="Python 植物大战僵尸游戏">Python Plants vs. Zombies Game</h3><p data-en="Built a Python game inspired by Plants vs. Zombies, applying object-oriented programming, game logic, event handling, and interactive design." data-zh="使用 Python 编写类似植物大战僵尸的游戏，应用面向对象编程、游戏逻辑、事件处理和交互设计。">Built a Python game inspired by Plants vs. Zombies, applying object-oriented programming, game logic, event handling, and interactive design.</p></article>
+        <article class="project-card"><div class="project-visual visual-delivery">APP</div><h3 data-en="Delivery System Development" data-zh="外卖系统编写">Delivery System Development</h3><p data-en="Designed and developed a delivery system project with order management, user interaction, and structured system logic. The project focuses on modeling real-world service workflows into organized software components." data-zh="设计并开发外卖系统项目，包括订单管理、用户交互和结构化系统逻辑。该项目重点是把真实服务流程建模，并转化为有组织的软件组件。">Designed and developed a delivery system project with order management, user interaction, and structured system logic. The project focuses on modeling real-world service workflows into organized software components.</p></article>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-card"><div><p class="eyebrow" data-en="Get in Touch" data-zh="联系我">Get in Touch</p><h2 data-en="Contact" data-zh="联系">Contact</h2><p data-en="Open to internship opportunities, software projects, teaching-related work, and technical collaboration." data-zh="欢迎联系我讨论实习机会、软件项目、教学相关工作和技术合作。">Open to internship opportunities, software projects, teaching-related work, and technical collaboration.</p></div><div class="contact-links"><a href="mailto:hengli0728@gmail.com">hengli0728@gmail.com</a><a href="https://www.linkedin.com/in/hengli-jia-804a9832a/" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/Hengli-Jia" target="_blank" rel="noopener">GitHub</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><p>© <span id="year"></span> Hengli Jia. All rights reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
