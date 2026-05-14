@@ -380,15 +380,11 @@ a {
 .contact-card { border-radius: var(--radius-xl); padding: 38px; display: grid; grid-template-columns: 1fr .92fr; gap: 30px; align-items: center; }
 .contact-card p { color: var(--muted); margin-top: 18px; }
 
-.contact-section .contact-card { grid-template-columns: 1fr; text-align: center; align-items: center; padding: 34px; }
+.contact-section .contact-card { grid-template-columns: .85fr 1.15fr; text-align: left; align-items: center; padding: 34px 38px; }
 .contact-section .contact-card > div:first-child { display: block; }
-.contact-section .contact-links { display: flex; flex-direction: column; gap: 12px; align-items: center; margin-top: 8px; }
-.contact-section .contact-links a { display: inline-block; padding: 12px 20px; min-width: 260px; border-radius: 12px; border: 1px solid var(--line); background: var(--white); font-weight: 800; transition: transform .18s ease, color .18s ease, background .18s ease; }
+.contact-section .contact-links { display: grid; grid-template-columns: 1fr; gap: 12px; align-items: stretch; justify-self: end; width: min(360px, 100%); margin-top: 0; }
+.contact-section .contact-links a { display: flex; align-items: center; justify-content: center; min-height: 48px; padding: 12px 20px; min-width: 0; border-radius: 12px; border: 1px solid var(--line); background: var(--white); font-weight: 800; transition: transform .18s ease, color .18s ease, background .18s ease; }
 .contact-section .contact-links a:hover { transform: translateY(-4px); color: var(--blue); background: rgba(37, 99, 235, .04); }
-
-@media (max-width: 620px) {
-	.contact-section .contact-links a { width: 100%; min-width: 0; }
-}
 
 .contact-links { display: grid; gap: 14px; }
 .contact-links a { display: block; padding: 16px 18px; border-radius: 18px; border: 1px solid var(--line); background: #f8fafc; font-weight: 800; transition: color .2s ease, transform .2s ease; }
@@ -425,6 +421,8 @@ a {
 	.hero { padding: 58px 0 54px; }
 	.hero-visual { min-height: 360px; }
 	.project-heading { flex-direction: column; align-items: flex-start; }
+	.contact-section .contact-card { grid-template-columns: 1fr; text-align: center; }
+	.contact-section .contact-links { justify-self: center; margin-top: 4px; }
 }
 
 @media (max-width: 620px) {
